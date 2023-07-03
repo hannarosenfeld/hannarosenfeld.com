@@ -36,6 +36,11 @@ ol, ul {
 	list-style: none;
 }
 
+.me {
+	float: right;
+	margin-left: 1em;
+}
+
 blockquote, q {
 	quotes: none;
 }
