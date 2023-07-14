@@ -39,6 +39,7 @@ ol, ul {
 .me {
 	float: right;
 	margin-left: 1em;
+	width: 200px;
 }
 
 blockquote, q {
