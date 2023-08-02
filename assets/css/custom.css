@@ -1,0 +1,15 @@
+.stack {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.stack-image {
+    width: 100px;
+    list-style: none;
+}
+
+.stack-image img{
+    width: 100%;
+}
