@@ -13,3 +13,7 @@
 .stack-image img{
     width: 100%;
 }
+
+.inner .actions{
+    margin-top: 2em;
+}
