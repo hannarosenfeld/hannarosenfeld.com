@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hannarosenfeld/hannarosenfeld.com/issues"
   },
-  "homepage": "https://github.com/hannarosenfeld/hannarosenfeld.com#readme"
+  "homepage": "https://github.com/hannarosenfeld/hannarosenfeld.com#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
 }
