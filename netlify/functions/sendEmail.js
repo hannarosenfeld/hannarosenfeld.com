@@ -1,5 +1,5 @@
 const nodemailer = require("nodemailer");
-require("dotenv").config(); // Load environment variables from .env file
+// require("dotenv").config(); // Load environment variables from .env file
 
 exports.handler = async function (event) {
     try {
