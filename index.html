@@ -172,25 +172,27 @@
 								<h2>Get in touch</h2>
 								<div class="split style1">
 									<section>
-										<form 
-											name="contact"
-											method="POST"
-											data-netlify="true"
-											onSubmit="submit"
-											id="contact-form"
-											netlify
-										>
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" required>
-									
-											<label for="email">Email</label>
-											<input type="email" name="email" id="email" required>
-									
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="5" required></textarea>
-									
-											<button type="submit">Send Message</button>
-										</form>
+										<form name="contact" method="POST" data-netlify="true">
+											<p>
+											  <label>Your Name: <input type="text" name="name" /></label>
+											</p>
+											<p>
+											  <label>Your Email: <input type="email" name="email" /></label>
+											</p>
+											<p>
+											  <label>Your Role: <select name="role[]" multiple>
+												<option value="leader">Leader</option>
+												<option value="follower">Follower</option>
+											  </select></label>
+											</p>
+											<p>
+											  <label>Message: <textarea name="message"></textarea></label>
+											</p>
+											<p>
+											  <button type="submit">Send</button>
+											</p>
+										  </form>
+										  
 									</section>
 								<section>
 									<ul class="contact">
