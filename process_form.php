@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Validate the CSRF token
-    if ($_POST["csrf_token"] !== "your_secret_csrf_token") {
+    if ($_POST["csrf_token"] !== "Leo23!!!") {
         die("CSRF validation failed");
     }
 
