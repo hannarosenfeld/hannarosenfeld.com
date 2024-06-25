@@ -1,3 +1,0 @@
-[build]
-  publish = "dist"
-  command = "mkdir -p dist && cp -r *.html assets/* images/* dist/"
