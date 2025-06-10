@@ -25,7 +25,7 @@ export default function App() {
           It helps organize and manage their warehouse space, including both vault and rack storage.
           The tool streamlines inventory tracking, improves space utilization, and reduces manual errors.
         </p>
-        <img
+        {/* <img
           src={warehouseGif}
           alt="Warehouse Manager demo"
           style={{
@@ -35,7 +35,7 @@ export default function App() {
             margin: "1.5em 0",
             boxShadow: "0 2px 16px rgba(124,58,237,0.10)"
           }}
-        />
+        /> */}
         <ul>
           <li>Developed a user-friendly interface for managing storage units and inventory</li>
           <li>Designed to handle both vault and rack storage types</li>
