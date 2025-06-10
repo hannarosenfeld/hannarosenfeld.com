@@ -16,7 +16,7 @@ export default function App() {
       <section>
         <h2>Featured Project</h2>
         <h3>
-          <a href="https://vault-manager.onrender.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://warehousemanager.app" target="_blank" rel="noopener noreferrer">
             Warehouse Manager
           </a>
         </h3>
